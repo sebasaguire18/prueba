@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilos bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- estilos propios -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- iconos -->
+    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css">
+
+    <title>Prueba</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 nav1">
+                    <ul class="nav green1">
+                        <li class="nav-item p-2">
+                          <a class="nav-link text-white fw-bold" aria-current="page">MENÚ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-9 nav2">
+                    <div class="nav mt-1">
+                        <li class="nav-intem">
+                            <a class="nav-link text-secondary"><i class="text-green2"><img src="img/img4.PNG" width="30px"></i></a>
+                        </li>
+                        <li class="nav-intem">
+                            <a class="nav-link text-secondary"><i class="bi bi-file-pdf text-green2 h4"></i></a>
+                        </li>
+                        <li class="nav-intem">
+                            <a class="nav-link text-secondary"><i class="bi bi-list-task text-green2 h4"></i></a>
+                        </li>
+                        <li class="nav-intem">
+                            <a class="nav-link text-secondary"><i class="bi bi-journals text-green2 h4"></i></a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row sidebar-container">
+            <div class="col-3 bg-green">
+                <ul class="nav nav-flex-colum">
+                    <li class="nav-item w-100 border-bottom border-light">
+                        <a class="nav-link text-white"><i class="bi bi-house-door-fill h3"> </i>Inicio</a>
+                    </li>
+                    <li class="nav-item w-100 border-bottom border-light">
+                        <a class="nav-link text-green fw-bold">Unidades de aprendizaje</a>
+                    </li>
+                    <li class="nav-item w-100 border-bottom border-light">
+                        <a class="nav-link text-white fw-bold">1. Importancia de la Formación Humanística <i class="bi bi-caret-right-fill text-end"></i></a>
+                        <p class="text-black link-white" role="button" data-bs-toggle="modal" data-bs-target="#modalVerMas">La importancia de la Formación Humanística</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9 bg-content">
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item" aria-current="page"><a href="index.html" class="text-secondary link-breadcrumb">Menú</a></li>
+                              <li class="breadcrumb-item" aria-current="page"><a href="index.html" class="text-secondary link-breadcrumb">Unidades de aprendizaje</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">1. Importancia de la Formación Humanística</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <h3 class="text-green2"><img src="img/img3.PNG" width="200px"></h3>
+                                <p class="text-green h6" data-bs-toggle="modal" data-bs-target="#modalVerMas"><b>La importancia de la formación humanístico/ Educación para la renta y educación para la democracia</b></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-1">
+                                <div class="mt-5 pt-5">
+                                    <a href="#" class="btn btn-flechas border-secondary rounded-circle text-center mt-5"><i class="bi bi-chevron-left"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-6 mx-2">
+                                <div class="card2 mt-5">
+                                    <div class="card-body card3 card4">
+                                        <div>
+                                            <p class="parrafo m-3">Para efectos de esta introducción, se debe realizar la lectura del texto “Sin fines de Lucro” de Martha Nussbaum, específicamente el capítulo dos, titulado “Educación para la renta, educación para la democracia”, este texto permitirá un acercamiento a resolver la pregunta ¿Por qué la democracia necesita de las humanidades.
+                                            <br><br> Para emprender la comparación propuesta en el título, la autora parte de la siguiente pregunta: ¿Qué significa el progreso para una nación?  La respuesta a esa pregunta se expresa en dos concepciones, la concepción tradicional del desarrollo con un fundamento estrictamente económico y la concepción del desarrollo arraigada en la idea del desarrollo humano.</p>
+                                            <div class="text-center">
+                                                <a href="#" class="btn bg-green text-white rounded-pill py-2 px-4"><b>VER PDF</b></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 mx-2 mt-5">
+                                <img src="img/img6.PNG" class="w-100">
+                            </div>
+                            <div class="col-1">
+                                <div class="mt-5 pt-5 ml-4">
+                                    <a href="#" class="btn btn-flechas border-secondary rounded-circle text-center mt-5 ml-4"><i class="bi bi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modalVerMas" tabindex="-1" aria-labelledby="modalVerMasLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg" >
+                                <div class="modal-content bg-green2">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body pb-5">
+                                        <div class="row px-3">
+                                            <div class="col-4"><img src="img/img5.PNG" class="w-100"></div>
+                                            <div class="col-8">
+                                                <div class="p-2 bg-warning">
+                                                    <p>El pensamiento grecolatino reviste un interés filosófico para áreas de lo más diverso. Aristóteles, por ejemplo, ofrece a los especialistas en las sociedades modernas una serie de recursos muy ricos para reflexionar acerca de la vulnerabilidad y la prosperidad humanas, asuntos a los que los poetas trágicos prestaron mucha atención. Gracias a él aprendemos que los bienes humanos son plurales y no individuales, al tiempo que nos dota de argumentos para criticar el actual pensamiento utilitario.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
